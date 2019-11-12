@@ -15,6 +15,7 @@
 		D0FF8421237C91130081AFBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FF841F237C91130081AFBA /* LaunchScreen.storyboard */; };
 		D0FF8429237C91130081AFBA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8428237C91130081AFBA /* Order.swift */; };
 		D0FF842B237C91130081AFBA /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF842A237C91130081AFBA /* AddressView.swift */; };
+		D0FF842D237C91130081AFBA /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF842C237C91130081AFBA /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D0FF8422237C91130081AFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FF8428237C91130081AFBA /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		D0FF842A237C91130081AFBA /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		D0FF842C237C91130081AFBA /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				D0FF8418237C91120081AFBA /* ContentView.swift */,
 				D0FF8428237C91130081AFBA /* Order.swift */,
 				D0FF842A237C91130081AFBA /* AddressView.swift */,
+				D0FF842C237C91130081AFBA /* CheckoutView.swift */,
 				D0FF841A237C91130081AFBA /* Assets.xcassets */,
 				D0FF841F237C91130081AFBA /* LaunchScreen.storyboard */,
 				D0FF8422237C91130081AFBA /* Info.plist */,
@@ -154,6 +157,7 @@
 			files = (
 				D0FF8415237C91120081AFBA /* AppDelegate.swift in Sources */,
 				D0FF8417237C91120081AFBA /* SceneDelegate.swift in Sources */,
+				D0FF842D237C91130081AFBA /* CheckoutView.swift in Sources */,
 				D0FF8429237C91130081AFBA /* Order.swift in Sources */,
 				D0FF8419237C91120081AFBA /* ContentView.swift in Sources */,
 				D0FF842B237C91130081AFBA /* AddressView.swift in Sources */,
