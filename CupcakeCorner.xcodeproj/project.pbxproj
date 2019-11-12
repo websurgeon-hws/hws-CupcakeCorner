@@ -13,6 +13,8 @@
 		D0FF841B237C91130081AFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FF841A237C91130081AFBA /* Assets.xcassets */; };
 		D0FF841E237C91130081AFBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FF841D237C91130081AFBA /* Preview Assets.xcassets */; };
 		D0FF8421237C91130081AFBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FF841F237C91130081AFBA /* LaunchScreen.storyboard */; };
+		D0FF8429237C91130081AFBA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8428237C91130081AFBA /* Order.swift */; };
+		D0FF842B237C91130081AFBA /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF842A237C91130081AFBA /* AddressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D0FF841D237C91130081AFBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0FF8420237C91130081AFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0FF8422237C91130081AFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FF8428237C91130081AFBA /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D0FF842A237C91130081AFBA /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				D0FF8414237C91120081AFBA /* AppDelegate.swift */,
 				D0FF8416237C91120081AFBA /* SceneDelegate.swift */,
 				D0FF8418237C91120081AFBA /* ContentView.swift */,
+				D0FF8428237C91130081AFBA /* Order.swift */,
+				D0FF842A237C91130081AFBA /* AddressView.swift */,
 				D0FF841A237C91130081AFBA /* Assets.xcassets */,
 				D0FF841F237C91130081AFBA /* LaunchScreen.storyboard */,
 				D0FF8422237C91130081AFBA /* Info.plist */,
@@ -148,7 +154,9 @@
 			files = (
 				D0FF8415237C91120081AFBA /* AppDelegate.swift in Sources */,
 				D0FF8417237C91120081AFBA /* SceneDelegate.swift in Sources */,
+				D0FF8429237C91130081AFBA /* Order.swift in Sources */,
 				D0FF8419237C91120081AFBA /* ContentView.swift in Sources */,
+				D0FF842B237C91130081AFBA /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
