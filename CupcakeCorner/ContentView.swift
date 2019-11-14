@@ -11,27 +11,27 @@ struct ContentView: View {
         NavigationView {
             Form {
                 Section {
-                    Picker("Select your cake type", selection: $order.type) {
-                        ForEach(0..<Order.types.count, id: \.self) {
-                            Text(Order.types[$0])
+                    Picker("Select your cake type", selection: $order.details.type) {
+                        ForEach(0..<OrderDetails.types.count, id: \.self) {
+                            Text(OrderDetails.types[$0])
                         }
                     }
 
-                    Stepper(value: $order.quantity, in: 3...20) {
-                        Text("Number of cakes: \(order.quantity)")
+                    Stepper(value: $order.details.quantity, in: 3...20) {
+                        Text("Number of cakes: \(order.details.quantity)")
                     }
                 }
                 Section {
-                    Toggle(isOn: $order.specialRequestEnabled.animation()) {
+                    Toggle(isOn: $order.details.specialRequestEnabled.animation()) {
                         Text("Any special requests?")
                     }
 
-                    if order.specialRequestEnabled {
-                        Toggle(isOn: $order.extraFrosting) {
+                    if order.details.specialRequestEnabled {
+                        Toggle(isOn: $order.details.extraFrosting) {
                             Text("Add extra frosting")
                         }
 
-                        Toggle(isOn: $order.addSprinkles) {
+                        Toggle(isOn: $order.details.addSprinkles) {
                             Text("Add extra sprinkles")
                         }
                     }
